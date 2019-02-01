@@ -1,0 +1,10 @@
+---
+applications:
+- name: greetings
+  buildpack: java_buildpack
+  path: target/gs-rest-service-0.1.0.jar
+  memory: 512M
+  env:
+    JAVA_OPTS: -Xss256k
+#  services:
+#  - mysql

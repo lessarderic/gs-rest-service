@@ -1,0 +1,7 @@
+management:
+  metrics:
+    export:
+      jmx:
+        enabled: true
+  endpoints:
+    enabled-by-default: true
